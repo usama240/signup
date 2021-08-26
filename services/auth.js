@@ -7,7 +7,7 @@ const _ = require('lodash')
 
 const services = require('../services/auth')
 
-var api_key = 'key-96dc7fa5c9c88aabae700ed733a93d6f';
+var api_key = '';
 var domain = 'sandboxb4af830d421a45268c33921e560fc59c.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 const secret = "activationkey123";
